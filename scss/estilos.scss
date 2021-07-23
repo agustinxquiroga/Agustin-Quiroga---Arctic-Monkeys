@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+body{
+	/*background-image: url(https://data.whicdn.com/images/183105891/original.jpg);
+	background-attachment: scroll;
+	background-repeat: round;
+	background-position: center;*/
+	font-family: BlinkMacSystemFont;
+	background-color:black;
+}
+/* ------- TITULO PRINCIPAL ----- */
+.misTitulos{
+	margin-top: 4rem;
+	font-style: italic;
+	color: #ffffff ;
+	letter-spacing: 5px;
+	text-align: center;
+	font-size: 3.1rem;
+	letter-spacing: 10px;
+}
+/* -------  FECHAS ------- */
+.seccionTour{
+	margin-top: 4rem;
+	box-shadow: 0px 0px 5px 0px #f48c06;
+	padding: 0px;
+}
+.fechas{
+	height: 80px;
+	text-align: center;
+	background-color: black;
+	color: #ffffff;
+	font-style: italic;
+	font-size: 1.2rem;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+.fechas:hover{
+	background-color: white;
+	color: black;
+}
+.enlacesTickets a{
+	text-decoration: none;
+	color: #f48c06;
+}
+.enlacesTickets a:hover{
+	font-weight: 700;
+	font-size: 1.25rem;
+}
