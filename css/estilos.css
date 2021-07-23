@@ -1,35 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
-/* line 2, ../../Trabajo Final/scss/estilos.scss */
 body {
   /*background-image: url(https://data.whicdn.com/images/183105891/original.jpg);
 	background-attachment: scroll;
 	background-repeat: round;
 	background-position: center;*/
   font-family: BlinkMacSystemFont;
+  background-color: grey;
+}
+
+/* ------- HEADER --------- */
+.header {
   background-color: black;
 }
 
-/* ------- TITULO PRINCIPAL ----- */
-/* line 11, ../../Trabajo Final/scss/estilos.scss */
-.misTitulos {
-  margin-top: 4rem;
+.tituloHeader {
+  display: inline-block;
+  padding: 1rem;
   font-style: italic;
   color: #ffffff;
-  letter-spacing: 5px;
-  text-align: center;
-  font-size: 3.1rem;
+  letter-spacing: 3px;
+  font-size: 2rem;
   letter-spacing: 10px;
 }
 
+.tituloHeader a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.lista ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.lista ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+ul li a:hover {
+  text-decoration: line-through;
+}
+
+/* ------- TITULO PRINCIPAL ----- */
 /* -------  FECHAS ------- */
-/* line 21, ../../Trabajo Final/scss/estilos.scss */
 .seccionTour {
   margin-top: 4rem;
   box-shadow: 0px 0px 5px 0px #f48c06;
   padding: 0px;
 }
 
-/* line 26, ../../Trabajo Final/scss/estilos.scss */
 .fechas {
   height: 80px;
   text-align: center;
@@ -41,22 +62,17 @@ body {
   font-weight: 500;
 }
 
-/* line 36, ../../Trabajo Final/scss/estilos.scss */
 .fechas:hover {
   background-color: white;
   color: black;
 }
 
-/* line 40, ../../Trabajo Final/scss/estilos.scss */
 .enlacesTickets a {
   text-decoration: none;
   color: #f48c06;
 }
 
-/* line 44, ../../Trabajo Final/scss/estilos.scss */
 .enlacesTickets a:hover {
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
-
-/*# sourceMappingURL=estilos.css.map */
