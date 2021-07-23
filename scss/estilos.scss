@@ -4,54 +4,40 @@ body{
 	background-color:grey;
 }
 /* ------- HEADER --------- */
-.header{
-	background-color: black;
+.bg-dark{
+	background-color: #000000!important;
 }
-.tituloHeader{
-	display: inline-block;
-	padding: 1rem;
-	font-style: italic;
-	color: #ffffff ;
-	letter-spacing: 3px;
-	font-size: 2rem;
-	letter-spacing: 10px;
-	a{
-		text-decoration: none;
-		color: #ffffff;
+.navbar .nav-item{
+	background-color:black;
+}
+@media all and (min-width:768px){
+		.navbar .nav-item{
+	background-color:transparent;
 	}
 }
-.lista{
-	ul li{
-		list-style: none;
-		display: inline-block;
-		a{
-			text-decoration: none;
-			color: #ffffff;
-			letter-spacing: 2px;
-		}
-	}
-}
-ul li a:hover{
-	text-decoration: line-through;
-}
+
+	
+
 /* ------- TITULO PRINCIPAL ----- */
 
 /* -------  FECHAS ------- */	
 
 .seccionTour{
 	margin-top: 4rem;
-	box-shadow: 0px 0px 5px 0px #f48c06;
 	padding: 0px;
 }
 .fechas{
+	border-bottom-style: solid;
+	border-width: 0.5px;
+	border-color: white;
 	height: 80px;
 	text-align: center;
 	background-color: black;
 	color: #ffffff;
 	font-style: italic;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	letter-spacing: 2px;
-	font-weight: 500;
+	font-weight: 400;
 }
 .fechas:hover{
 	background-color: white;
