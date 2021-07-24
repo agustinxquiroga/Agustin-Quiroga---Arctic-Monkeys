@@ -2,6 +2,7 @@
 body {
   font-family: 'STIX Two Math', serif;
   background-color: grey;
+  font-style: italic;
 }
 
 /* ------- HEADER --------- */
@@ -13,9 +14,30 @@ body {
   background-color: black;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  letter-spacing: 3px;
+  padding-left: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  text-decoration: line-through;
+  color: white;
+}
+
 @media all and (min-width: 768px) {
   .navbar .nav-item {
     background-color: transparent;
+  }
+  .navbar-brand {
+    padding-left: 25px;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    padding-right: 25px;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 
