@@ -82,4 +82,10 @@ body {
 .card-footer {
   background-color: black;
   color: white;
+  padding: 20px;
+}
+
+.card-footer p {
+  font-size: 1rem;
+  letter-spacing: 3px;
 }
