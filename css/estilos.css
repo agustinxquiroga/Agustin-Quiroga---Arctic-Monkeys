@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
 body {
   font-family: 'STIX Two Math', serif;
-  background-color: grey;
+  background-color: white;
   font-style: italic;
 }
 
-/* ------- HEADER --------- */
+/* -------- HEADER --------- */
 .bg-dark {
   background-color: #000000 !important;
 }
@@ -19,6 +19,7 @@ body {
   letter-spacing: 3px;
   padding-left: 15px;
   font-size: 1rem;
+  font-style: italic;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -42,7 +43,51 @@ body {
   }
 }
 
-/* ------- TITULO PRINCIPAL ----- */
+/* ------- CONTENIDO ----- */
+.img-fluid {
+  filter: grayscale(100%);
+}
+
+.img-fluid:hover {
+  filter: grayscale(0%);
+}
+
+.tapaAlbum {
+  text-align: right;
+}
+
+.tapaAlbum .border {
+  border: 2px solid #f48c06 !important;
+}
+
+.albums {
+  background: black;
+  color: white;
+}
+
+.canciones {
+  font-style: italic;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.canciones p:hover {
+  color: #f48c06;
+  text-decoration: line-through;
+}
+
+.tituloAlbum {
+  padding-top: 20px;
+}
+
+.tituloAlbum p {
+  font-style: italic;
+  font-size: 1.8rem;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
 /* -------  FECHAS ------- */
 .seccionTour {
   margin-top: 4rem;
@@ -87,6 +132,7 @@ body {
 }
 
 .card-footer p {
+  font-style: italic;
   font-size: 1rem;
   letter-spacing: 3px;
 }
