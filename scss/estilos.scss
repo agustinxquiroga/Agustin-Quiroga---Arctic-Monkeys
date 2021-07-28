@@ -2,11 +2,14 @@
 body{
 	font-family: 'STIX Two Math', serif;
 	font-style: italic;
+	background-color:black;
+@media all and (min-width:768px){
 	background: url(../media/background.jpg);
 	background-attachment: fixed;
-	background-color:black;
 	background-position: center;
+	}
 }
+
 /* -------- HEADER --------- */
 .bg-dark{
 	background-color: #000000 !important;
