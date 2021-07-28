@@ -43,15 +43,8 @@ body {
   }
 }
 
-/* ------- CONTENIDO ----- */
-.img-fluid {
-  filter: grayscale(100%);
-}
-
-.img-fluid:hover {
-  filter: grayscale(0%);
-}
-
+/* ------- BKG IMAGEN ------- */
+/* ------- CONTENIDO MUSICA ----- */
 .tapaAlbum {
   text-align: right;
 }
@@ -88,9 +81,14 @@ body {
   text-align: center;
 }
 
-/* -------  FECHAS ------- */
+@media all and (max-width: 768px) {
+  .canciones {
+    text-transform: lowercase;
+  }
+}
+
+/* ------- CONTENIDO TOUR ------- */
 .seccionTour {
-  margin-top: 4rem;
   padding: 0px;
 }
 
