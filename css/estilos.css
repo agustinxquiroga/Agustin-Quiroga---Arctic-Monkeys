@@ -6,20 +6,21 @@ body {
   background: url(../media/background.jpg);
   background-attachment: fixed;
   background-color: black;
+  background-position: center;
 }
 
 /* -------- HEADER --------- */
-/* line 10, ../../Trabajo Final/scss/estilos.scss */
+/* line 11, ../../Trabajo Final/scss/estilos.scss */
 .bg-dark {
   background-color: #000000 !important;
 }
 
-/* line 13, ../../Trabajo Final/scss/estilos.scss */
+/* line 14, ../../Trabajo Final/scss/estilos.scss */
 .navbar .nav-item {
   background-color: black;
 }
 
-/* line 16, ../../Trabajo Final/scss/estilos.scss */
+/* line 17, ../../Trabajo Final/scss/estilos.scss */
 .navbar-dark .navbar-nav .nav-link {
   color: white;
   letter-spacing: 3px;
@@ -28,26 +29,26 @@ body {
   font-style: italic;
 }
 
-/* line 23, ../../Trabajo Final/scss/estilos.scss */
+/* line 24, ../../Trabajo Final/scss/estilos.scss */
 .navbar-dark .navbar-nav .nav-link:hover {
   text-decoration: line-through;
   color: #ff7900;
 }
 
 @media all and (min-width: 768px) {
-  /* line 28, ../../Trabajo Final/scss/estilos.scss */
+  /* line 29, ../../Trabajo Final/scss/estilos.scss */
   .navbar .nav-item {
     background-color: transparent;
   }
-  /* line 31, ../../Trabajo Final/scss/estilos.scss */
+  /* line 32, ../../Trabajo Final/scss/estilos.scss */
   .navbar-brand {
     padding-left: 25px;
   }
-  /* line 35, ../../Trabajo Final/scss/estilos.scss */
+  /* line 36, ../../Trabajo Final/scss/estilos.scss */
   .navbar-expand-lg .navbar-collapse {
     padding-right: 25px;
   }
-  /* line 38, ../../Trabajo Final/scss/estilos.scss */
+  /* line 39, ../../Trabajo Final/scss/estilos.scss */
   .navbar-dark .navbar-nav .nav-link {
     padding-left: 25px;
     padding-right: 25px;
@@ -55,7 +56,7 @@ body {
 }
 
 /* ------- HEADER SECCION  ------- */
-/* line 44, ../../Trabajo Final/scss/estilos.scss */
+/* line 45, ../../Trabajo Final/scss/estilos.scss */
 .imgPresentacion {
   border-bottom: 3px solid black;
   height: 250px;
@@ -67,7 +68,7 @@ body {
   justify-content: center;
 }
 
-/* line 54, ../../Trabajo Final/scss/estilos.scss */
+/* line 55, ../../Trabajo Final/scss/estilos.scss */
 .misTitulos {
   color: #ff7900;
   font-style: italic;
@@ -76,8 +77,12 @@ body {
   font-weight: 400;
 }
 
+@media all and (min-width: 768px) {
+  background: url(../media/seccionesMobile.jpg);
+}
+
 /* ------- CONTENIDO TOUR ------- */
-/* line 63, ../../Trabajo Final/scss/estilos.scss */
+/* line 66, ../../Trabajo Final/scss/estilos.scss */
 .fechas {
   border-bottom-style: solid;
   border-width: 0.5px;
@@ -92,42 +97,42 @@ body {
   font-weight: 400;
 }
 
-/* line 76, ../../Trabajo Final/scss/estilos.scss */
+/* line 79, ../../Trabajo Final/scss/estilos.scss */
 .fechas:hover {
   background-color: white;
   color: black;
 }
 
-/* line 80, ../../Trabajo Final/scss/estilos.scss */
+/* line 83, ../../Trabajo Final/scss/estilos.scss */
 .enlacesTickets a {
   text-decoration: none;
   color: #ff7900;
 }
 
-/* line 84, ../../Trabajo Final/scss/estilos.scss */
+/* line 87, ../../Trabajo Final/scss/estilos.scss */
 .enlacesTickets a:hover {
   font-weight: 700;
   font-size: 1rem;
 }
 
 /* ------- CONTENIDO MUSICA ----- */
-/* line 89, ../../Trabajo Final/scss/estilos.scss */
+/* line 92, ../../Trabajo Final/scss/estilos.scss */
 .tapaAlbum {
   text-align: right;
 }
 
-/* line 92, ../../Trabajo Final/scss/estilos.scss */
+/* line 95, ../../Trabajo Final/scss/estilos.scss */
 .tapaAlbum .border {
   border: 2px solid #ff7900 !important;
 }
 
-/* line 95, ../../Trabajo Final/scss/estilos.scss */
+/* line 98, ../../Trabajo Final/scss/estilos.scss */
 .albums {
   background: black;
   color: white;
 }
 
-/* line 99, ../../Trabajo Final/scss/estilos.scss */
+/* line 102, ../../Trabajo Final/scss/estilos.scss */
 .canciones {
   font-style: italic;
   letter-spacing: 3px;
@@ -135,18 +140,18 @@ body {
   text-transform: uppercase;
 }
 
-/* line 105, ../../Trabajo Final/scss/estilos.scss */
+/* line 108, ../../Trabajo Final/scss/estilos.scss */
 .canciones p:hover {
   color: #ff7900;
   text-decoration: line-through;
 }
 
-/* line 109, ../../Trabajo Final/scss/estilos.scss */
+/* line 112, ../../Trabajo Final/scss/estilos.scss */
 .tituloAlbum {
   padding-top: 20px;
 }
 
-/* line 111, ../../Trabajo Final/scss/estilos.scss */
+/* line 114, ../../Trabajo Final/scss/estilos.scss */
 .tituloAlbum p {
   font-style: italic;
   font-size: 1.8rem;
@@ -155,7 +160,7 @@ body {
 }
 
 @media all and (max-width: 768px) {
-  /* line 119, ../../Trabajo Final/scss/estilos.scss */
+  /* line 122, ../../Trabajo Final/scss/estilos.scss */
   .canciones {
     text-transform: lowercase;
   }
@@ -163,13 +168,13 @@ body {
 
 /* ------- CONTENIDO MEDIA -------*/
 /* ------- CONTENIDO HISTORIA ------- */
-/* line 125, ../../Trabajo Final/scss/estilos.scss */
+/* line 128, ../../Trabajo Final/scss/estilos.scss */
 .seccionHistoria {
   background-color: black;
   color: white;
 }
 
-/* line 129, ../../Trabajo Final/scss/estilos.scss */
+/* line 132, ../../Trabajo Final/scss/estilos.scss */
 .texto {
   font-style: italic;
   font-size: 1rem;
@@ -177,9 +182,52 @@ body {
   text-align: center;
 }
 
-/* ------- COTENIDO CONTACTO ------- */
-/* -------  FOOTER ------- */
 /* line 138, ../../Trabajo Final/scss/estilos.scss */
+.textoDestacado {
+  color: #ff7900;
+  font-weight: bold;
+}
+
+/* ------- COTENIDO CONTACTO ------- */
+/* line 143, ../../Trabajo Final/scss/estilos.scss */
+.btn {
+  color: white;
+  border-color: black;
+  background-color: #ff7900;
+  font-style: italic;
+  letter-spacing: 3px;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* line 152, ../../Trabajo Final/scss/estilos.scss */
+.btn:hover {
+  color: black;
+  border-color: white;
+  background-color: white;
+  border: 2px solid black;
+}
+
+/* line 158, ../../Trabajo Final/scss/estilos.scss */
+.form-group .form-control {
+  font-style: italic;
+  letter-spacing: 3px;
+}
+
+/* line 162, ../../Trabajo Final/scss/estilos.scss */
+.form-group .form-control:focus {
+  border: 2px solid black;
+  box-shadow: 0px 0px 0px 0px;
+}
+
+/* line 166, ../../Trabajo Final/scss/estilos.scss */
+.formulario {
+  border: 2px solid black;
+  background-color: black;
+}
+
+/* -------  FOOTER ------- */
+/* line 171, ../../Trabajo Final/scss/estilos.scss */
 .card-footer {
   background-color: black;
   color: white;
@@ -187,11 +235,22 @@ body {
   text-align: center;
 }
 
-/* line 143, ../../Trabajo Final/scss/estilos.scss */
+/* line 176, ../../Trabajo Final/scss/estilos.scss */
 .card-footer p {
   font-style: italic;
-  font-size: 1rem;
+  font-size: 13px;
   letter-spacing: 3px;
+}
+
+/* line 182, ../../Trabajo Final/scss/estilos.scss */
+.logos i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* line 186, ../../Trabajo Final/scss/estilos.scss */
+.logos i:hover {
+  color: #ff7900;
 }
 
 /*# sourceMappingURL=estilos.css.map */
