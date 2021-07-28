@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
 body{
 	font-family: 'STIX Two Math', serif;
-	background-color:white;
 	font-style: italic;
-	
+	background: url(../media/background.jpg);
+	background-attachment: fixed;
+	background-color:black;
 }
 /* -------- HEADER --------- */
 .bg-dark{
@@ -21,7 +22,7 @@ body{
 }
 .navbar-dark .navbar-nav .nav-link:hover{
 	text-decoration: line-through;
-	color: #f48c06;
+	color: #ff7900;
 }
 @media all and (min-width:768px){
 		.navbar .nav-item{
@@ -39,46 +40,26 @@ body{
 			padding-right:25px;
 		}
 }
-/* ------- BKG IMAGEN ------- */
-/* ------- CONTENIDO MUSICA ----- */
-.tapaAlbum{
-	text-align: right;
+/* ------- HEADER SECCION  ------- */
+.imgPresentacion{
+	border-bottom: 3px solid black;
+	height: 250px;
+	background: url(../media/secciones.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items:center;
+	justify-content: center;
 }
-.tapaAlbum .border{
-	border: 2px solid #f48c06 !important;
-}
-.albums{
-	background: black;
-	color: white;
-}
-.canciones{
+.misTitulos{
+	color: #ff7900;
 	font-style: italic;
-	letter-spacing: 3px;
-	font-size: 1rem;
-	text-transform: uppercase;
-}
-.canciones p:hover{
-	color: #f48c06 ;
-	text-decoration: line-through;
-}
-.tituloAlbum{
-	padding-top: 20px;
-		p{
-			font-style: italic;
-			font-size: 1.8rem;
-			letter-spacing: 7px;
-			text-align: center;
-		}
-}
-@media all and (max-width:768px){
-	.canciones{
-	text-transform: lowercase;
-	}
+	font-size: 1.8rem;
+	letter-spacing: 10px;
+	font-weight: 400;
+
 }
 /* ------- CONTENIDO TOUR ------- */	
-.seccionTour{
-	padding: 0px;
-}
 .fechas{
 	border-bottom-style: solid;
 	border-width: 0.5px;
@@ -98,12 +79,60 @@ body{
 }
 .enlacesTickets a{
 	text-decoration: none;
-	color: #f48c06;
+	color: #ff7900;
 }
 .enlacesTickets a:hover{
 	font-weight: 700;
 	font-size: 1rem;
 }
+/* ------- CONTENIDO MUSICA ----- */
+.tapaAlbum{
+	text-align: right;
+}
+.tapaAlbum .border{
+	border: 2px solid #ff7900 !important;
+}
+.albums{
+	background: black;
+	color: white;
+}
+.canciones{
+	font-style: italic;
+	letter-spacing: 3px;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+.canciones p:hover{
+	color: #ff7900 ;
+	text-decoration: line-through;
+}
+.tituloAlbum{
+	padding-top: 20px;
+		p{
+			font-style: italic;
+			font-size: 1.8rem;
+			letter-spacing: 7px;
+			text-align: center;
+		}
+}
+@media all and (max-width:768px){
+	.canciones{
+	text-transform: lowercase;
+	}
+}
+/* ------- CONTENIDO MEDIA -------*/
+/* ------- CONTENIDO HISTORIA ------- */
+.seccionHistoria{
+	background-color:black;
+	color: white;
+}
+.texto{
+	font-style: italic;
+	font-size: 1rem;
+	letter-spacing: 5px;
+	text-align: center;
+}
+/* ------- COTENIDO CONTACTO ------- */
 
 /* -------  FOOTER ------- */
 .card-footer{

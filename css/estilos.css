@@ -1,19 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
+/* line 2, ../../Trabajo Final/scss/estilos.scss */
 body {
   font-family: 'STIX Two Math', serif;
-  background-color: white;
   font-style: italic;
+  background: url(../media/background.jpg);
+  background-attachment: fixed;
+  background-color: black;
 }
 
 /* -------- HEADER --------- */
+/* line 10, ../../Trabajo Final/scss/estilos.scss */
 .bg-dark {
   background-color: #000000 !important;
 }
 
+/* line 13, ../../Trabajo Final/scss/estilos.scss */
 .navbar .nav-item {
   background-color: black;
 }
 
+/* line 16, ../../Trabajo Final/scss/estilos.scss */
 .navbar-dark .navbar-nav .nav-link {
   color: white;
   letter-spacing: 3px;
@@ -22,76 +28,56 @@ body {
   font-style: italic;
 }
 
+/* line 23, ../../Trabajo Final/scss/estilos.scss */
 .navbar-dark .navbar-nav .nav-link:hover {
   text-decoration: line-through;
-  color: #f48c06;
+  color: #ff7900;
 }
 
 @media all and (min-width: 768px) {
+  /* line 28, ../../Trabajo Final/scss/estilos.scss */
   .navbar .nav-item {
     background-color: transparent;
   }
+  /* line 31, ../../Trabajo Final/scss/estilos.scss */
   .navbar-brand {
     padding-left: 25px;
   }
+  /* line 35, ../../Trabajo Final/scss/estilos.scss */
   .navbar-expand-lg .navbar-collapse {
     padding-right: 25px;
   }
+  /* line 38, ../../Trabajo Final/scss/estilos.scss */
   .navbar-dark .navbar-nav .nav-link {
     padding-left: 25px;
     padding-right: 25px;
   }
 }
 
-/* ------- BKG IMAGEN ------- */
-/* ------- CONTENIDO MUSICA ----- */
-.tapaAlbum {
-  text-align: right;
+/* ------- HEADER SECCION  ------- */
+/* line 44, ../../Trabajo Final/scss/estilos.scss */
+.imgPresentacion {
+  border-bottom: 3px solid black;
+  height: 250px;
+  background: url(../media/secciones.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.tapaAlbum .border {
-  border: 2px solid #f48c06 !important;
-}
-
-.albums {
-  background: black;
-  color: white;
-}
-
-.canciones {
-  font-style: italic;
-  letter-spacing: 3px;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-
-.canciones p:hover {
-  color: #f48c06;
-  text-decoration: line-through;
-}
-
-.tituloAlbum {
-  padding-top: 20px;
-}
-
-.tituloAlbum p {
+/* line 54, ../../Trabajo Final/scss/estilos.scss */
+.misTitulos {
+  color: #ff7900;
   font-style: italic;
   font-size: 1.8rem;
-  letter-spacing: 7px;
-  text-align: center;
-}
-
-@media all and (max-width: 768px) {
-  .canciones {
-    text-transform: lowercase;
-  }
+  letter-spacing: 10px;
+  font-weight: 400;
 }
 
 /* ------- CONTENIDO TOUR ------- */
-.seccionTour {
-  padding: 0px;
-}
-
+/* line 63, ../../Trabajo Final/scss/estilos.scss */
 .fechas {
   border-bottom-style: solid;
   border-width: 0.5px;
@@ -106,22 +92,94 @@ body {
   font-weight: 400;
 }
 
+/* line 76, ../../Trabajo Final/scss/estilos.scss */
 .fechas:hover {
   background-color: white;
   color: black;
 }
 
+/* line 80, ../../Trabajo Final/scss/estilos.scss */
 .enlacesTickets a {
   text-decoration: none;
-  color: #f48c06;
+  color: #ff7900;
 }
 
+/* line 84, ../../Trabajo Final/scss/estilos.scss */
 .enlacesTickets a:hover {
   font-weight: 700;
   font-size: 1rem;
 }
 
+/* ------- CONTENIDO MUSICA ----- */
+/* line 89, ../../Trabajo Final/scss/estilos.scss */
+.tapaAlbum {
+  text-align: right;
+}
+
+/* line 92, ../../Trabajo Final/scss/estilos.scss */
+.tapaAlbum .border {
+  border: 2px solid #ff7900 !important;
+}
+
+/* line 95, ../../Trabajo Final/scss/estilos.scss */
+.albums {
+  background: black;
+  color: white;
+}
+
+/* line 99, ../../Trabajo Final/scss/estilos.scss */
+.canciones {
+  font-style: italic;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+/* line 105, ../../Trabajo Final/scss/estilos.scss */
+.canciones p:hover {
+  color: #ff7900;
+  text-decoration: line-through;
+}
+
+/* line 109, ../../Trabajo Final/scss/estilos.scss */
+.tituloAlbum {
+  padding-top: 20px;
+}
+
+/* line 111, ../../Trabajo Final/scss/estilos.scss */
+.tituloAlbum p {
+  font-style: italic;
+  font-size: 1.8rem;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+@media all and (max-width: 768px) {
+  /* line 119, ../../Trabajo Final/scss/estilos.scss */
+  .canciones {
+    text-transform: lowercase;
+  }
+}
+
+/* ------- CONTENIDO MEDIA -------*/
+/* ------- CONTENIDO HISTORIA ------- */
+/* line 125, ../../Trabajo Final/scss/estilos.scss */
+.seccionHistoria {
+  background-color: black;
+  color: white;
+}
+
+/* line 129, ../../Trabajo Final/scss/estilos.scss */
+.texto {
+  font-style: italic;
+  font-size: 1rem;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+/* ------- COTENIDO CONTACTO ------- */
 /* -------  FOOTER ------- */
+/* line 138, ../../Trabajo Final/scss/estilos.scss */
 .card-footer {
   background-color: black;
   color: white;
@@ -129,8 +187,11 @@ body {
   text-align: center;
 }
 
+/* line 143, ../../Trabajo Final/scss/estilos.scss */
 .card-footer p {
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 3px;
 }
+
+/*# sourceMappingURL=estilos.css.map */
