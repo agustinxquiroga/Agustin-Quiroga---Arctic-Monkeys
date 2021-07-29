@@ -3,13 +3,7 @@ body{
 	font-family: 'STIX Two Math', serif;
 	font-style: italic;
 	background-color:black;
-@media all and (min-width:768px){
-	background: url(../media/background.jpg);
-	background-attachment: fixed;
-	background-position: center;
-	}
 }
-
 /* -------- HEADER --------- */
 .bg-dark{
 	background-color: #000000 !important;
@@ -91,6 +85,14 @@ body{
 	font-weight: 700;
 	font-size: 1rem;
 }
+@media all and (min-width: 768px){
+	.seccionTour{
+		background: url(../media/background.jpg);
+		background-position:center;
+		background-attachment: fixed;
+		background-size:100%;
+	}
+}
 /* ------- CONTENIDO MUSICA ----- */
 .tapaAlbum{
 	text-align: right;
@@ -126,9 +128,25 @@ body{
 	text-transform: lowercase;
 	}
 }
-/* ------- CONTENIDO MEDIA -------*/
+@media all and (min-width: 768px){
+	.seccionMusica{
+		background: url(../media/background.jpg);
+		background-position:center;
+		background-attachment: fixed;
+		background-size:100%;
+	}
+}
+/* ------- CONTENIDO MEDIA ------- */
+@media all and (min-width: 768px){
+	.seccionMedia{
+		background: url(../media/background.jpg);
+		background-position:center;
+		background-attachment: fixed;
+		background-size:100%;
+	}
+}
 /* ------- CONTENIDO HISTORIA ------- */
-.seccionHistoria{
+.fondoTexto{
 	background-color:black;
 	color: white;
 }
@@ -141,6 +159,14 @@ body{
 .textoDestacado{
 	color:#ff7900;
 	font-weight: bold;
+}
+@media all and (min-width: 768px){
+	.seccionHistoria{
+		background: url(../media/background.jpg);
+		background-position:center;
+		background-attachment: fixed;
+		background-size:100%;
+	}
 }
 /* ------- COTENIDO CONTACTO ------- */
 .btn{
@@ -170,6 +196,15 @@ body{
 	border: 2px solid black;
 	background-color: black;
 }
+@media all and (min-width: 768px){
+	.seccionContacto{
+		background: url(../media/background.jpg);
+		background-position:center;
+		background-attachment: fixed;
+		background-size:100%;
+	}
+}
+
 /* -------  FOOTER ------- */
 .card-footer{
 	background-color: black;
