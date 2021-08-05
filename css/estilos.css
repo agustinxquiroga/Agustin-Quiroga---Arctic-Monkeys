@@ -227,6 +227,10 @@ body {
 
 /* ------- COTENIDO CONTACTO ------- */
 /* line 172, ../../Trabajo Final/scss/estilos.scss */
+.seccionContacto{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 .btn {
   color: white;
   border-color: black;
